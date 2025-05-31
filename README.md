@@ -86,12 +86,8 @@ Results will show spoken text and match accuracy with the original paragraph.
 
 📈 Result Interpretation
 
-Test Component	Indicator
-
-Blink Rate	>20 blinks → ⚠️ Possible Alzheimer sign
-
-Pupil Size	Displayed in mm for analysis
-
-Gaze Variation	Higher = poor focus (possible attention issues)
-
-Speech Accuracy	Lower % = possible speech or memory difficulty
+- Test Component	Indicator
+- Blink Rate	>20 blinks → ⚠️ Possible Alzheimer sign
+- Pupil Size	Displayed in mm for analysis
+- Gaze Variation	Higher = poor focus (possible attention issues)
+- Speech Accuracy	Lower % = possible speech or memory difficulty

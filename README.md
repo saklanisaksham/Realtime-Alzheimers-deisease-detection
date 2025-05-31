@@ -1,7 +1,11 @@
 # Realtime-Alzheimers-deisease-detection
 👁️ Blink Detection, Gaze Tracking & Speech Recognition App
-A real-time web-based application using OpenCV, MediaPipe, and Streamlit that analyzes blink frequency, pupil size, gaze movement, and speech accuracy to assist in early signs of cognitive impairment, such as Alzheimer's disease.
 
+This project is a Streamlit-based interactive application that uses computer vision and speech recognition techniques to:
+- Detect **blinks** and **track pupil size**
+- Perform **gaze movement analysis**
+- Assess **speech accuracy** from a given paragraph
+  
 #🚀 Features
 
 🔹 Blink Detection & Pupil Tracking

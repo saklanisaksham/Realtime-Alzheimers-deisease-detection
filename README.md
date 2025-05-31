@@ -14,47 +14,34 @@ This project is a Streamlit-based interactive application that uses computer vis
 #🚀 Features
 
 🔹 Blink Detection & Pupil Tracking
-Uses Eye Aspect Ratio (EAR) to detect blinks.
-
-Tracks left and right iris radius in real-time.
-
-Blinks are counted and analyzed over a 60-second session.
-
-Option to capture frame snapshots.
-
-Displays warning if blinks exceed a threshold—potential Alzheimer's indicator.
+-- Uses Eye Aspect Ratio (EAR) to detect blinks.
+-- Tracks left and right iris radius in real-time.
+-- Blinks are counted and analyzed over a 60-second session.
+-- Option to capture frame snapshots.
+-- Displays warning if blinks exceed a threshold—potential Alzheimer's indicator.
 
 🔹 Gaze Tracking
-Monitors eye movement across the screen.
-
-Calculates variation in gaze direction using facial landmarks.
-
-Quantifies focus and attention level.
+-- Monitors eye movement across the screen.
+-- Calculates variation in gaze direction using facial landmarks.
+-- Quantifies focus and attention level.
 
 🔹 Speech Recognition
-Displays a reference paragraph for the user to read.
+-- Displays a reference paragraph for the user to read.
+-- Records and transcribes speech using Google Speech API.
+-- Compares transcribed speech with reference text.
+-- Calculates speech match accuracy percentage.
 
-Records and transcribes speech using Google Speech API.
+### 🛠️ Tech Stack
 
-Compares transcribed speech with reference text.
+| Library              | Purpose                                |
+|----------------------|----------------------------------------|
+| **OpenCV**           | Video frame processing                 |
+| **MediaPipe**        | Facial landmark and iris detection     |
+| **Streamlit**        | Interactive Web UI                     |
+| **SpeechRecognition**| Voice-to-text conversion               |
+| **NumPy**, **SciPy** | Numerical computation                  |
+| **Threading**        | Real-time processing optimization      |
 
-Calculates speech match accuracy percentage.
-
-🛠️ Tech Stack
-
-Library	Purpose
-
-OpenCV	Video frame processing
-
-MediaPipe	Facial landmark and iris detection
-
-Streamlit	Interactive Web UI
-
-SpeechRecognition	Voice-to-text conversion
-
-NumPy, SciPy	Numerical computation
-
-Threading	Real-time processing optimization
 
 
 📦 Installation

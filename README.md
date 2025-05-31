@@ -48,7 +48,7 @@ This project is a Streamlit-based interactive application that uses computer vis
 
 Follow these steps to set up and run the project locally:
 
-``bash
+```bash
 # Clone the repository
 git clone https://github.com/saklanisaksham/Realtime-Alzheimers-deisease-detection.git
 
@@ -61,7 +61,7 @@ pip install -r requirements.txt
 # Run the Streamlit app
 streamlit run <filename>.py  # Replace <filename>.py with your actual script name
 
-
+```
 
 📸 Blink Detection Module Demo
 

@@ -44,15 +44,23 @@ This project is a Streamlit-based interactive application that uses computer vis
 
 
 
-📦 Installation
+### 📦 Installation
 
+Follow these steps to set up and run the project locally:
+
+``bash
+# Clone the repository
 git clone https://github.com/saklanisaksham/Realtime-Alzheimers-deisease-detection.git
 
+# Navigate to the project directory
 cd Realtime-Alzheimers-deisease-detection
 
+# Install required dependencies
 pip install -r requirements.txt
 
-streamlit run filename.py
+# Run the Streamlit app
+streamlit run <filename>.py  # Replace <filename>.py with your actual script name
+
 
 
 📸 Blink Detection Module Demo
@@ -68,10 +76,11 @@ Gaze Tracking:
 - Speech Recognition: Read the given paragraph aloud and press "Start Speech Test".
 - Results will show spoken text and match accuracy with the original paragraph. 
 
-📈 Result Interpretation
+### 📈 Result Interpretation
 
-- Test Component	Indicator
-- Blink Rate	>20 blinks → ⚠️ Possible Alzheimer sign
-- Pupil Size	Displayed in mm for analysis
-- Gaze Variation	Higher = poor focus (possible attention issues)
-- Speech Accuracy	Lower % = possible speech or memory difficulty
+| Test Component   | Indicator                                         |
+|------------------|---------------------------------------------------|
+| **Blink Rate**   | >20 blinks → ⚠️ Possible Alzheimer sign           |
+| **Pupil Size**   | Displayed in mm for analysis                      |
+| **Gaze Variation**| Higher = poor focus (possible attention issues)  |
+| **Speech Accuracy**| Lower % = possible speech or memory difficulty  |

@@ -60,6 +60,7 @@ streamlit run blink_gaze_speech_app.py
 
 
 📸 Blink Detection Module Demo
+
 Press "Capture Image" to take a snapshot of the current webcam feed.
 
 Press "Reset Blink Count" to start blink counting again.
@@ -67,6 +68,7 @@ Press "Reset Blink Count" to start blink counting again.
 After 60 seconds, results will display whether blink frequency is within a healthy range.
 
 🧠 Cognitive Tests
+
 Gaze Tracking: Click "Start Gaze Test" to track eye movement for 60 seconds.
 
 Speech Recognition: Read the given paragraph aloud and press "Start Speech Test".
